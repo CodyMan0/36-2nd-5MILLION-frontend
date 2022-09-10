@@ -1,32 +1,32 @@
 # 5Million
-
-
 --- 
-
-
-##   5Million
 
 ![schedule](https://velog.velcdn.com/images/sharphand1/post/9bfab73f-d9d6-4d9d-b075-7b8ca8ef996c/image.png)
 
 ## 프로젝트 소개
 ---
 대한 민국 최대 규모인 댄스 아카데미인 ONE MILLION 사이트를 모티브로 하여 프로젝트를 진행하였습니다.  개발은 초기 세팅부터 모두 직접 구현하였으며,  이번 프로젝트는 다양한 라이브러리와 API를 최대한 활용하는 것을 목표로 진행하였습니다
+- &#128073; [5MILLION 시연 영상 보러가기](https://youtu.be/oFiMtcx96vc)
 
 ---
-
-![BODYLIKE ERD](https://velog.velcdn.com/images/sharphand1/post/d4ccf024-a13e-4279-ad1a-63af68b21003/image.jpg)
 
 ### FE
 <table>
   <tr>
     <td>
-    	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JHPL4GQJ-4d6154be5763-512" width="100px" />
+      <a href="https://github.com/kimjuno97">
+            <img src="https://ca.slack-edge.com/TH0U6FBTN-U03JHPL4GQJ-4d6154be5763-512" width="100px" />
+        </a>
     </td>
     <td>
-    	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JL5NKCHJ-192f4970c7ed-512" width="100px"/>
+         <a href="https://github.com/strongsongky">
+          	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JL5NKCHJ-192f4970c7ed-512" width="100px"/>
+        </a>
     </td>
     <td>
-    	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JHMEQ02X-6cffc3092879-512" width="100px" />
+      <a href="https://github.com/CodyMan0">
+          	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JHMEQ02X-6cffc3092879-512" width="100px" />
+        </a>
     </td>
   </tr>
   <tr>
@@ -41,16 +41,20 @@
   </tr>
 </table>
 
-[36-2nd-frontend](d)
+[36-2nd-frontend](https://github.com/wecode-bootcamp-korea/36-2nd-5MILLION-frontend)
 
 ### BE
 <table>
   <tr>
     <td>
-    	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JB5PFMML-843d4de54ab3-512" width="100px" />
+    	 <a href="https://github.com/LeeJ1Hyun">
+          <img src="https://ca.slack-edge.com/TH0U6FBTN-U03JB5PFMML-843d4de54ab3-512" width="100px" />
+        </a>
     </td>
     <td>
-    	<img src="https://ca.slack-edge.com/TH0U6FBTN-U03JJUNBB7G-cfc662a4b82c-512" width="100px" />
+       <a href="https://github.com/isol78">
+          <img src="https://ca.slack-edge.com/TH0U6FBTN-U03JJUNBB7G-cfc662a4b82c-512" width="100px" />
+        </a>
     </td>
   </tr>
   <tr>
@@ -63,7 +67,7 @@
   </tr>
 </table>
 
-[36-2nd-backend](h)
+[36-2nd-backend](https://github.com/wecode-bootcamp-korea/36-2nd-5MILLION-backend)
 
 
 ## 프로젝트 소개
@@ -108,41 +112,107 @@
 </div>
 
 
-** 💘 구현 API 및 업무 소개**  
-<br/>**### 이솔**  
-- Express 초기 세팅  
-- ERD 모델링  
-- instructors 조회 API (GET)  
-  - limit, offset 을 이용해 페이징 처리  
-- instructors 상세 조회 API (GET)  
-  - Instructor id 를 통해 해당 instructor 상세 페이지 조회 기능 구현  
-  - 에러 메세지를 반환 예외 처리 구현<br/>**### 이지현**  
-- Express 초기 세팅  
-- ERD 모델링  
-- social(카카오) login API (POST)  
-   - [사용자 정보 가져오기 API]([https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info)를](https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info)%EB%A5%BC) 이용하여 axios함수 요청으로 kakao_id를 포함한 유저의 정보를 DB에 등록  
-   - kakao_id를 payload에 담아 5MILLION만의 access_token 발급  
-- schedule 조회 API (GET)  
-  - instructor, classType 조건으로 필터링하여 schedules 조회  
-- class 예약/취소 API (POST/DELETE)  
-- myAccount 조회 API (GET)  
-  - 유저가 예약한 classes를 조회<br/>**## 프로젝트  Check point!**  
-<br/>- error handling을 class로 분리하여 서비스 로직단의 코드를 깔끔하게 짜는 것에 집중  
-- 개발한 코드를 테스트하기 위해 end-point마다 매번 Unit Test(단위 테스트)를 작성<br/>**## Back-End 자료**  
-<br/>**### 노션 페이지**<br/>![5MILLION NOTION]([https://velog.velcdn.com/images/nextlinehappy516/post/683606f8-d8e1-4316-85e5-5d3d8d7ca756/image.png](https://velog.velcdn.com/images/nextlinehappy516/post/683606f8-d8e1-4316-85e5-5d3d8d7ca756/image.png))- 5MILLION NOTION  
-  - tickets 관리  
-  - convention 공유  
-- &#128073; [NOTION 페이지 보러가기]([https://www.notion.so/5MILLION-44f8de800da145ecb6304292d14df0e1](https://www.notion.so/5MILLION-44f8de800da145ecb6304292d14df0e1))<br/>**### Mysql ERD**<br/>![5MILLION ERD]([https://velog.velcdn.com/images/nextlinehappy516/post/b1dc6961-8d32-483a-adaf-39baa9dcf28e/image.png](https://velog.velcdn.com/images/nextlinehappy516/post/b1dc6961-8d32-483a-adaf-39baa9dcf28e/image.png))- 5MILLION ERD<br/>**### API 명세서 (POSTMAN)**<br/>![API 명세서]([https://velog.velcdn.com/images/nextlinehappy516/post/83ecbed7-32b8-4c68-bd02-49de5b4c68c1/image.png](https://velog.velcdn.com/images/nextlinehappy516/post/83ecbed7-32b8-4c68-bd02-49de5b4c68c1/image.png))- API 명세서  
-- &#128073; [API 명세서 보러가기]([https://documenter.getpostman.com/view/22697866/VV4xuvL2#0cc2f620-598b-47bb-a228-a5636c2291d8](https://documenter.getpostman.com/view/22697866/VV4xuvL2#0cc2f620-598b-47bb-a228-a5636c2291d8))<br/>
+## (BE)💘 구현 API 및 업무 소개
 
-## (FE) Features
+### 이솔
+- Express 초기 세팅
+- ERD 모델링
+- instructors 조회 API (GET)
+  - limit, offset 을 이용해 페이징 처리
+- instructors 상세 조회 API (GET)
+  - Instructor id 를 통해 해당 instructor 상세 페이지 조회 기능 구현
+  - 에러 메세지를 반환 예외 처리 구현
+
+<br/>
+
+### 이지현
+- Express 초기 세팅
+- ERD 모델링
+- social(카카오) login API (POST)
+  - [사용자 정보 가져오기 API]([https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info)를](https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info)%EB%A5%BC) 이용하여 axios함수 요청으로 kakao_id를 포함한 유저의 정보를 DB에 등록
+  - kakao_id를 payload에 담아 5MILLION만의 access_token 발급 
+- schedule 조회 API (GET)
+  - instructor, classType 조건으로 필터링하여 schedules 조회
+- class 예약/취소 API (POST/DELETE)
+- myAccount 조회 API (GET)
+  - 유저가 예약한 classes를 조회
+
+<br/>
+
+## 프로젝트  Check point!
+
+- error handling을 class로 분리하여 서비스 로직단의 코드를 깔끔하게 짜는 것에 집중  
+- 개발한 코드를 테스트하기 위해 end-point마다 매번 Unit Test(단위 테스트)를 작성
+
+<br/>
+
+## Back-End 자료
+
+<br/>
+
+### 노션 페이지
+
+<br/>
+
+![5MILLION NOTION](https://velog.velcdn.com/images/nextlinehappy516/post/683606f8-d8e1-4316-85e5-5d3d8d7ca756/image.png)
+
+- 5MILLION NOTION
+  - tickets 관리
+  - convention 공유  
+- &#128073; [NOTION 페이지 보러가기](https://www.notion.so/5MILLION-44f8de800da145ecb6304292d14df0e1)
+
+<br/>
+
+### Mysql ERD
+
+<br/>
+
+![5MILLION ERD](https://velog.velcdn.com/images/nextlinehappy516/post/b1dc6961-8d32-483a-adaf-39baa9dcf28e/image.png)
+
+- 5MILLION ERD
+
+<br/>
+
+### API 명세서 (POSTMAN)
+
+<br/>
+
+![API 명세서](https://velog.velcdn.com/images/nextlinehappy516/post/83ecbed7-32b8-4c68-bd02-49de5b4c68c1/image.png)
+
+- API 명세서  
+- &#128073; [API 명세서 보러가기](https://documenter.getpostman.com/view/22697866/VV4xuvL2#0cc2f620-598b-47bb-a228-a5636c2291d8)
+
+<br/>
+
+## 💘 (FE) 담당 페이지 소개 
 - 김준호 : 
+   #### 1. 메인페이지 구현
+   
+   - ReactPlayer 라이브러리 사용
+   - Slick - Caroucel 라이브러리 사용
+
+   #### 2. Instructor 페이지 구현
+   
+   #### 3. Instructor Detail 페이지 구현
+   
+   - useParams를 이용한 동적라우팅 및 컴포넌트 재사용
+  
 - 문경용 : 
 - 이주영 :
+  
+  ### 1. NAV 바 구현
+  
+  ### 2. 스케줄 예약 페이지
+  
+  - #### 필터 기능
+  - #### 달력 UI 구현
+  - #### 예약 기능
+  
 
 
 ## 팀 프로젝트 노션 링크 
- - [](https://www.notion.so/6-d977ee006c2745fc99ae1f958a07d015)
+ - [5M 노션 페이지로 가기](https://wecode.notion.site/5MILLION-44f8de800da145ecb6304292d14df0e1)
 
 
-## 2차 프로젝트시 보완할 점 
+## 팀 회고록 
+- [5M 회고록 보러가기](https://wecode.notion.site/e50db6e5582843dba49c6d3aee6af41a)
