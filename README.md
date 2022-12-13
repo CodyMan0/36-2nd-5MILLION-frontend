@@ -32,7 +32,7 @@
   <tr>
     <td><b>김준호</b></td>
     <td><b>송경용</b></td>
-    <td><b>이주영</b></td>
+    <td><b>이주영(PM)</b></td>
   </tr>
   <tr>
     <td><b>Front-End</b></td>
