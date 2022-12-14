@@ -123,20 +123,19 @@
       - 서버로부터 받은 데이터를 활용하여 달력 UI를 구현
       - Slick - Caroucel 라이브러리를 사용하여 더 나은 UI 구현
    
-- 김준호 : 
-   ### 1. 메인페이지 구현
+### 김준호 : 
+  - 메인페이지 구현
+    - ReactPlayer 라이브러리 사용
+    - Slick - Caroucel 라이브러리 사용
 
-   - ReactPlayer 라이브러리 사용
-   - Slick - Caroucel 라이브러리 사용
+    - Instructor 페이지 구현
 
-   ### 2. Instructor 페이지 구현
+    - Instructor Detail 페이지 구현
+      - useParams를 이용한 동적라우팅 및 컴포넌트 재사용
 
-   ### 3. Instructor Detail 페이지 구현
-
-   - useParams를 이용한 동적라우팅 및 컴포넌트 재사용
-
-- 문경용 : 
-   ### 1. 소셜 로그인 기능 구현
+### 문경용 : 
+  - 소셜 로그인 기능 구현
+  - aside 바 UI 
 
   
  
